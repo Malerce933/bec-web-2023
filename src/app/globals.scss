@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 150ms ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+.heading {
+  @apply tracking-widest self-center uppercase px-1 text-4xl md:text-6xl text-center my-10;
+}
