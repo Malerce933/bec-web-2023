@@ -5,8 +5,8 @@ import './globals.scss'
 
 
 export const metadata: Metadata = {
-  title: 'BEC 2023',
-  description: 'BEC 2023 Webpage',
+  title: 'BEC 2024',
+  description: 'BEC 2024 Webpage',
 }
 
 export default function RootLayout({
